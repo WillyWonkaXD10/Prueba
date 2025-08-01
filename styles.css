@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: "Poppins";
+    background-color: #ffd1d1;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 10px;
+    margin-left: 50px;
+    padding: 2px;
+    transition: width 0.3s ease;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding: 10px;
+    font-family: "Poppins";
+    font-size: 20px;
+    color: #c73a3a;
+    font-weight: 600;
+}
+
+nav ul li a:hover{
+    border-bottom: 2px solid;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.icon-profile img{
+    width: 400px;
+}
+
+.icon-profile {
+    margin-top: 30px;
+    margin-left: auto;
+    border: none;
+}
+
+nav .icon-profile a:hover {
+    border: none;
+}
+
+section {
+    align-items: center;
+}
+
+.inicio {
+    margin: auto;
+    width: 80%;
+    background-color: #ff8a8a;
+    padding: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    border-radius: 20px;
+}
+
+.inicio h1 {
+    text-transform: uppercase;
+}
+
+.foto-inicio {
+    margin-right: 30px;
+}
+
+.foto-inicio img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+.texto-container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    flex-wrap: nowrap;
+}
+
+.texto {
+    margin: auto;
+    width: 80%;
+    padding: 50px;
+    margin-bottom: 20px;
+}
+
+.texto h1{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.texto-container img {
+    width: 400px;
+    border-radius: 20px;
+}
+
+.pie {
+    padding: 50px;
+    background-color: #3a3a3a;
+    color: #ffd1d1;
+    display: flex;
+    justify-content: center;
+
+    margin: 10px;
+    flex-wrap: wrap;
+    
+}
+.pie p{
+    text-align: center;
+    font-size: 13px;
+    padding: 20px;
+}
+
+.redes{
+    padding: 20px;
+}
+
+.redes img{
+    width: 40px;
+}
+
+@media(max-width: 1150px) {
+    nav ul {
+        flex-direction: column;
+    }
+    .inicio {
+        flex-direction: column;
+        justify-items: center;
+        margin: auto;
+        text-align: center;
+    }
+
+    .foto-inicio img {
+        margin-left: 18px;
+        margin-bottom: 20px;
+    }
+
+    .texto-container {
+        flex-direction: column;
+    }
+
+    .texto {
+        text-align: center;
+    }
+
+    .pie {
+        margin-top: 100px;
+    }
+
+    
+
+}
+
